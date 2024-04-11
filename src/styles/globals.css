@@ -1,0 +1,10 @@
+/* styles.css or any global CSS file */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Importing the custom font */
+@font-face {
+  font-family: 'ChineseRocks'; /* Use the same name you used in tailwind.config.js */
+  src: url('/fonts/rdr2.otf') format('opentype'); /* Adjust the path to your font file */
+}
