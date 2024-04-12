@@ -24,7 +24,7 @@ export default function Home() {
       <div className="relative overflow-hidden">
         <main className="">
           <div className="text-center">
-            <span className="text-6xl font-bold">
+            <span className="text-4xl md:text-6xl font-bold">
               <span className="bg-gradient-to-r from-emerald-300 to-emerald-600 text-transparent bg-clip-text">
                 incompetent.dev
               </span>
@@ -33,13 +33,13 @@ export default function Home() {
 
 
 
-            <h1 className="md:text-2xl tracking-tight font-light text-gray-900 mb-4 mt-2">
+            <h1 className="md:text-2xl tracking-tight font-light text-gray-900 mb-4 mt-2 inline flex">
 
-              <span className="block text-zinc-300 xl:inline">creating solutions for your </span>{' '}
+              <span className="block text-zinc-300">creating solutions for your </span>{' '}
 
-              <div className="block text-emerald-500 xl:inline">
+              <div className="block text-emerald-500 ml-1">
                 <Typewriter
-                  words={['fivem server', 'discord bot']}
+                  words={['fivem server', 'discord server', '']}
                   loop={false}
                   cursor
                   cursorStyle='_'
