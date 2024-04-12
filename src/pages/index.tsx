@@ -24,7 +24,7 @@ export default function Home() {
       <div className="relative overflow-hidden">
         <main className="">
           <div className="text-center">
-            <span className="text-4xl md:text-6xl font-bold">
+            <span className="text-4xl md:text-4xl font-bold">
               <span className="bg-gradient-to-r from-emerald-300 to-emerald-600 text-transparent bg-clip-text">
                 incompetent.dev
               </span>
