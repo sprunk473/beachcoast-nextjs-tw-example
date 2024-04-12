@@ -5,12 +5,19 @@ import { faDiscord } from '@fortawesome/free-brands-svg-icons';
 import Link from "next/link";
 import { CloudIcon } from "@heroicons/react/24/outline";
 import { Typewriter } from "react-simple-typewriter";
+import Head from 'next/head';
 
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
     <div className={`min-h-screen bg-zinc-800 ${inter.className} relative justify-center items-center flex`}>
+      <Head>
+        <title>incompetent.dev</title>
+        <meta name="description" content="private solutions" />
+        <meta property="og:image" content="incomp.png" />
+        <link rel="icon" href="incomp.png" />
+      </Head>
       <div className="relative overflow-hidden">
         <main className="">
           <div className="text-center">
