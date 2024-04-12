@@ -52,10 +52,10 @@ export default function Home() {
 
             </h1>
             <div className="flex justify-center ">
-              <Link href="https://discord.gg/CczE95fWs3" className="py-1.5 px-5 bg-zinc-600 hover:bg-zinc-700 rounded-3xl transition duration-150 text-zinc-300 font-medium mr-2">
+              <Link href="https://discord.gg/CczE95fWs3" className="hover:scale-95 py-1.5 px-5 bg-zinc-600 hover:bg-zinc-700 rounded-3xl transition duration-150 text-zinc-300 font-medium mr-2">
                 discord
               </Link>
-              <Link href="https://pterodactyl.incompetent.dev/" className="py-1.5 px-5 bg-emerald-600 hover:bg-emerald-700 transition duration-150 rounded-3xl text-black font-medium">game panel</Link>
+              <Link href="https://pterodactyl.incompetent.dev/" className="hover:scale-95 py-1.5 px-5 bg-emerald-600 hover:bg-emerald-700 transition duration-150 rounded-3xl text-black font-medium">game panel</Link>
             </div>
 
 
