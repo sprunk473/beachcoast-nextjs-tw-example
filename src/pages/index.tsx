@@ -17,6 +17,9 @@ export default function Home() {
         <meta name="description" content="private solutions" />
         <meta property="og:image" content="incomp.png" />
         <link rel="icon" href="incomp.png" />
+        <meta property="og:title" content="incompetent.dev" />
+        <meta property="og:description" content="private solutions" />
+        <meta property="og:image" content="incomp.png" />
       </Head>
       <div className="relative overflow-hidden">
         <main className="">
@@ -51,7 +54,7 @@ export default function Home() {
             <div className="flex justify-center ">
               <Link href="https://discord.gg/CczE95fWs3" className="py-1.5 px-5 bg-zinc-600 hover:bg-zinc-700 rounded-3xl transition duration-150 text-zinc-300 font-medium mr-2">
                 discord
-                </Link>
+              </Link>
               <Link href="https://pterodactyl.incompetent.dev/" className="py-1.5 px-5 bg-emerald-600 hover:bg-emerald-700 transition duration-150 rounded-3xl text-black font-medium">game panel</Link>
             </div>
 
