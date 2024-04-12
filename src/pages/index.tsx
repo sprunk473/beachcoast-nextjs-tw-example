@@ -33,7 +33,7 @@ export default function Home() {
 
 
 
-            <h1 className="md:text-2xl tracking-tight font-light text-gray-900 mb-4 mt-2 inline flex">
+            <h1 className="md:text-lg justify-center tracking-tight font- text-gray-900 mb-4 mt-2 inline flex">
 
               <span className="block text-zinc-300">creating solutions for your </span>{' '}
 
