@@ -56,7 +56,7 @@ export default function Home() {
                 <img src="discord-mark-white.png" alt="Game Panel Icon" className="w-5 mr-2" />
                 discord
               </Link>
-              <Link href="https://pterodactyl.incompetent.dev/" className="group flex items-center justify-center hover:scale-95 py-1.5 px-5 bg-emerald-700 hover:bg-emerald-700 transition duration-150 rounded-3xl text-zinc-900 font-medium">
+              <Link href="https://pterodactyl.incompetent.dev/" className="group flex items-center justify-center hover:scale-95 py-1.5 px-5 bg-emerald-600 hover:bg-emerald-700 transition duration-150 rounded-3xl text-zinc-950 font-medium">
                 game panel
               </Link>
             </div>
