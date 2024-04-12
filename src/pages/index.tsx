@@ -13,20 +13,24 @@ export default function Home() {
       <div className="relative overflow-hidden">
         <main className="">
           <div className="text-center">
-            <span className="text-6xl text-zinc-300 font-bold">
-              in
-              <span className="text-indigo-200">competent</span>
-              .dev
+            <span className="text-6xl font-bold">
+              <span className="bg-gradient-to-r from-indigo-500 to-violet-300 text-transparent bg-clip-text">
+                incompetent.dev
+              </span>
             </span>
+
+
+
+
 
             <h1 className="md:text-2xl tracking-tight font-extralight text-gray-900 mb-4 mt-2">
 
               <span className="block text-zinc-300 xl:inline">private</span>{' '}
-              <span className="block text-amber-100 xl:inline">development solutions</span>
+              <span className="block text-indigo-300 xl:inline">development solutions</span>
             </h1>
             <div className="flex justify-center">
               <Link href="https://discord.gg/CczE95fWs3" className="py-1.5 px-5 bg-zinc-600 hover:bg-zinc-500 rounded text-indigo-200 font-medium mr-2"><FontAwesomeIcon icon={faDiscord} /> discord</Link>
-              <Link href="https://pterodactyl.incompetent.dev/" className="py-1.5 px-5 bg-zinc-600 hover:bg-zinc-500 rounded text-blue-200 font-medium"><CloudIcon className="w-5 inline" /> game panel</Link>
+              <Link href="https://pterodactyl.incompetent.dev/" className="py-1.5 px-5 bg-zinc-600 hover:bg-zinc-500 rounded text-indigo-300 font-medium"><CloudIcon className="w-5 inline" /> game panel</Link>
             </div>
 
 
