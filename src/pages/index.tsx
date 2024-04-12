@@ -51,11 +51,14 @@ export default function Home() {
 
 
             </h1>
-            <div className="flex justify-center ">
-              <Link href="https://discord.gg/CczE95fWs3" className="hover:scale-95 py-1.5 px-5 bg-zinc-600 hover:bg-zinc-700 rounded-3xl transition duration-150 text-zinc-300 font-medium mr-2">
+            <div className="flex justify-center space-x-2">
+              <Link href="https://discord.gg/CczE95fWs3" className="group flex items-center justify-center hover:scale-95 py-1.5 px-5 bg-zinc-600 hover:bg-emerald-700 transition duration-150 rounded-3xl text-zinc-200 font-medium">
+                <img src="discord-mark-white.png" alt="Game Panel Icon" className="w-5 mr-2" />
                 discord
               </Link>
-              <Link href="https://pterodactyl.incompetent.dev/" className="hover:scale-95 py-1.5 px-5 bg-emerald-600 hover:bg-emerald-700 transition duration-150 rounded-3xl text-black font-medium">game panel</Link>
+              <Link href="https://pterodactyl.incompetent.dev/" className="group flex items-center justify-center hover:scale-95 py-1.5 px-5 bg-emerald-700 hover:bg-emerald-700 transition duration-150 rounded-3xl text-zinc-900 font-medium">
+                game panel
+              </Link>
             </div>
 
 
