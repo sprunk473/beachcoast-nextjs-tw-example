@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDiscord } from '@fortawesome/free-brands-svg-icons';
 import Link from "next/link";
 import { CloudIcon } from "@heroicons/react/24/outline";
+import { Typewriter } from "react-simple-typewriter";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -14,7 +15,7 @@ export default function Home() {
         <main className="">
           <div className="text-center">
             <span className="text-6xl font-bold">
-              <span className="bg-gradient-to-r from-indigo-500 to-violet-300 text-transparent bg-clip-text">
+              <span className="bg-gradient-to-r from-emerald-300 to-emerald-600 text-transparent bg-clip-text">
                 incompetent.dev
               </span>
             </span>
@@ -22,15 +23,27 @@ export default function Home() {
 
 
 
+            <h1 className="md:text-2xl tracking-tight font-light text-gray-900 mb-4 mt-2">
 
-            <h1 className="md:text-2xl tracking-tight font-extralight text-gray-900 mb-4 mt-2">
+              <span className="block text-zinc-300 xl:inline">creating solutions for your </span>{' '}
 
-              <span className="block text-zinc-300 xl:inline">private</span>{' '}
-              <span className="block text-indigo-300 xl:inline">development solutions</span>
+              <div className="block text-emerald-500 xl:inline">
+                <Typewriter
+                  words={['fivem server', 'discord bot']}
+                  loop={false}
+                  cursor
+                  cursorStyle='_'
+                  typeSpeed={100}
+                  deleteSpeed={65}
+                  delaySpeed={1000}
+                />
+              </div>
+
+
             </h1>
-            <div className="flex justify-center">
-              <Link href="https://discord.gg/CczE95fWs3" className="py-1.5 px-5 bg-zinc-600 hover:bg-zinc-500 rounded text-indigo-200 font-medium mr-2"><FontAwesomeIcon icon={faDiscord} /> discord</Link>
-              <Link href="https://pterodactyl.incompetent.dev/" className="py-1.5 px-5 bg-zinc-600 hover:bg-zinc-500 rounded text-indigo-300 font-medium"><CloudIcon className="w-5 inline" /> game panel</Link>
+            <div className="flex justify-center ">
+              <Link href="https://discord.gg/CczE95fWs3" className="py-1.5 px-5 bg-zinc-600 hover:bg-zinc-700 rounded-3xl transition duration-150 text-zinc-300 font-medium mr-2"><FontAwesomeIcon icon={faDiscord} /> discord</Link>
+              <Link href="https://pterodactyl.incompetent.dev/" className="py-1.5 px-5 bg-emerald-600 hover:bg-emerald-700 transition duration-150 rounded-3xl text-black font-medium">game panel</Link>
             </div>
 
 
