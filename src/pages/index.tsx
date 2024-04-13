@@ -36,7 +36,7 @@ export default function Home() {
 
               <div className="block text-emerald-500 ml-1">
                 <Typewriter
-                  words={['fivem server', 'discord server', '']}
+                  words={['fivem server', 'discord server']}
                   loop={false}
                   cursor
                   cursorStyle='_'
