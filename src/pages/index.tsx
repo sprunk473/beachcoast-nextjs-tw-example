@@ -26,14 +26,8 @@ export default function Home() {
                 incompetent.dev
               </span>
             </span>
-
-
-
-
             <h1 className="md:text-lg justify-center tracking-tight font- text-gray-900 mb-4 mt-2 inline flex">
-
               <span className="block text-zinc-300">creating solutions for your </span>{' '}
-
               <div className="block text-emerald-500 ml-1">
                 <Typewriter
                   words={['fivem server', 'discord server']}
@@ -45,21 +39,17 @@ export default function Home() {
                   delaySpeed={1000}
                 />
               </div>
-
-
             </h1>
             <div className="flex justify-center space-x-2">
-            <Link href="https://discord.gg/CczE95fWs3" className="group flex items-center justify-center hover:scale-95 py-1.5 px-5 bg-zinc-600 hover:bg-zinc-700 transition duration-150 rounded-3xl text-zinc-200 font-medium">
-  <img src="discord-mark-white.png" alt="Game Panel Icon" className="w-5 mr-2 pointer-events-none" draggable="true" />
-  discord
-</Link>
+              <Link href="https://discord.gg/CczE95fWs3" className="group flex items-center justify-center hover:scale-95 py-1.5 px-5 bg-zinc-600 hover:bg-zinc-700 transition duration-150 rounded-3xl text-zinc-200 font-medium">
+                <img src="discord-mark-white.png" alt="Game Panel Icon" className="w-5 mr-2 pointer-events-none" draggable="true" />
+                discord
+              </Link>
 
               <Link href="https://pterodactyl.incompetent.dev/" className="group flex items-center justify-center hover:scale-95 py-1.5 px-5 bg-emerald-600 hover:bg-emerald-700 transition duration-150 rounded-3xl text-zinc-950 font-medium">
                 game panel
               </Link>
             </div>
-
-
           </div>
         </main>
       </div>
