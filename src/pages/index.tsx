@@ -41,8 +41,13 @@ export default function Home() {
               </div>
             </h1>
             <div className="flex justify-center space-x-2">
-              <Link href="https://discord.gg/CczE95fWs3" className="group flex items-center justify-center hover:scale-95 py-1.5 px-5 bg-zinc-600 hover:bg-zinc-700 transition duration-150 rounded-3xl text-zinc-200 font-medium">
-                <img src="discord-mark-white.png" alt="Game Panel Icon" className="w-5 mr-2 pointer-events-none" draggable="true" />
+              <Link href="https://discord.gg/CczE95fWs3" className="group flex items-center justify-center hover:scale-95 py-1.5 px-5 bg-zinc-700 hover:bg-zinc-700 transition duration-150 rounded-3xl text-zinc-200 font-medium">
+                <img src="github3.png" alt="Game Panel Icon" className="w-5 mr-2 pointer-events-none" draggable="true" />
+                github
+              </Link>
+
+              <Link href="github" className="group flex items-center justify-center hover:scale-95 py-1.5 px-5 bg-zinc-600 hover:bg-zinc-700 transition duration-150 rounded-3xl text-zinc-200 font-medium">
+              <img src="discord-mark-white.png" alt="Game Panel Icon" className="w-5 mr-2 pointer-events-none" draggable="true" />
                 discord
               </Link>
 
