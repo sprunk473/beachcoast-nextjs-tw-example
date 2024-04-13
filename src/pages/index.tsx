@@ -1,9 +1,6 @@
 import { Inter } from "next/font/google";
 import React from "react";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faDiscord } from '@fortawesome/free-brands-svg-icons';
 import Link from "next/link";
-import { CloudIcon } from "@heroicons/react/24/outline";
 import { Typewriter } from "react-simple-typewriter";
 import Head from 'next/head';
 
