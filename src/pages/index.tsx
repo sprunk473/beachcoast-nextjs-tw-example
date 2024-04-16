@@ -41,7 +41,7 @@ export default function Home() {
               </div>
             </h1>
             <div className="flex justify-center space-x-2">
-              <Link href="https://discord.gg/CczE95fWs3" className="py-1 px-4 group flex items-center justify-center hover:scale-95 bg-zinc-700 hover:bg-zinc-700 transition duration-150 rounded-3xl text-zinc-200 font-medium">
+              <Link href="https://github.com/incompetentdevs" className="py-1 px-4 group flex items-center justify-center hover:scale-95 bg-zinc-700 hover:bg-zinc-700 transition duration-150 rounded-3xl text-zinc-200 font-medium">
                 <img src="github3.png" alt="Game Panel Icon" className="w-5 mr-2 pointer-events-none" draggable="true" />
                 github
               </Link>
