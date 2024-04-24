@@ -3,3 +3,7 @@ node_modules/
 
 # Ignore .next directory
 .next/
+
+yarn.lock
+
+package-lock.json
