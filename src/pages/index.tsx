@@ -19,7 +19,7 @@ function LoginPage() {
                             </label>
                             <div className="relative">
                                 <input type="email" id="email" name="email" className="text-zinc-200 bg-zinc-600 w-full px-4 py-2 border-2 border-zinc-400 rounded-md focus:outline-none focus:border-blue-500" />
-                                <div className="absolute inset-y-0 right-0 flex items-center pr-3 pointer-events-none">
+                                <div className="shadow-md absolute inset-y-0 right-0 flex items-center pr-3 pointer-events-none">
                                     <EnvelopeIcon className="w-5 text-zinc-400" />
                                 </div>
                             </div>
@@ -31,13 +31,13 @@ function LoginPage() {
                             </label>
                             <div className="relative">
                                 <input type="password" id="password" name="password" className="text-zinc-200 bg-zinc-600 w-full px-4 py-2 border-2 border-zinc-400 rounded-md focus:outline-none focus:border-blue-500" />
-                                <div className="absolute inset-y-0 right-0 flex items-center pr-3 pointer-events-none">
+                                <div className="shadow-md absolute inset-y-0 right-0 flex items-center pr-3 pointer-events-none">
                                     <KeyIcon className="w-5 text-zinc-400" />
                                 </div>
                             </div>
                         </div>
 
-                        <button type="submit" className="w-full bg-green-700 text-white px-4 py-2 rounded-md flex items-center justify-center hover:bg-green-800 focus:outline-none">
+                        <button type="submit" className="shadow-md w-full bg-green-700 text-white px-4 py-2 rounded-md flex items-center justify-center hover:bg-green-800 focus:outline-none">
                             <PaperAirplaneIcon className="w-5 mr-2" />
                             Login
                         </button>
@@ -54,11 +54,11 @@ function LoginPage() {
                         </div>
 
                         <div className="flex flex-col space-y-4 mt-4">
-                            <button type="button" className="bg-[#5865F2] text-white px-4 py-2 rounded-md flex items-center justify-center focus:outline-none">
+                            <button type="button" className="shadow-md bg-[#7289DA] text-white px-4 py-2 rounded-md flex items-center justify-center focus:outline-none">
                                 <img src="logos/discord.png" alt="Discord Icon" className="w-6 h-6 mr-2 object-contain" />
                                 Discord
                             </button>
-                            <button type="button" className="bg-blue-700 text-white px-4 py-2 rounded-md flex items-center justify-center hover:bg-blue-800 focus:outline-none">
+                            <button type="button" className="shadow-md bg-blue-700 text-white px-4 py-2 rounded-md flex items-center justify-center hover:bg-blue-800 focus:outline-none">
                                 <img src="logos/steam.png" alt="Discord Icon" className="w-6 h-6 mr-2 object-contain" />
                                 Steam
                             </button>
