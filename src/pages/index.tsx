@@ -2,11 +2,6 @@ import { useSession, signIn, signOut } from "next-auth/react"
 import React from 'react';
 import { Inter } from "next/font/google";
 import { EnvelopeIcon, KeyIcon, PaperAirplaneIcon } from '@heroicons/react/24/solid';
-import type {
-    GetServerSidePropsContext,
-    InferGetServerSidePropsType,
-} from "next"
-import { getCsrfToken } from "next-auth/react"
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -18,8 +13,6 @@ export default function Component() {
             <>
                 Signed in as {session.user.email} / {session.user.name} <br />
                 <button onClick={() => signOut()}>Sign out</button>
-
-
             </>
         )
     }
@@ -30,7 +23,7 @@ export default function Component() {
                     <h2 className="text-2xl font-semibold text-center mb-4 text-zinc-300">
                         Portal Login
                     </h2>
-                    <form method="post" action="/api/auth/callback/credentials">
+                    <form>
                         <div className="relative mb-4">
                             <label htmlFor="email" className="block text-zinc-200 font-medium mb-2">
                                 Email
