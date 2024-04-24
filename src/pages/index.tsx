@@ -9,10 +9,14 @@ function LoginPage() {
         <div className={` ${inter.className}`}>
             <div className="min-h-screen flex items-center justify-center bg-zinc-700">
                 <div className="max-w-md w-full bg-zinc-800 p-8 rounded shadow-md">
-                    <h2 className="text-2xl font-semibold text-center mb-4 text-zinc-300">Portal Login</h2>
+                    <h2 className="text-2xl font-semibold text-center mb-4 text-zinc-300">
+                        Portal Login
+                    </h2>
                     <form>
                         <div className="relative mb-4">
-                            <label htmlFor="email" className="block text-zinc-200 font-medium mb-2">Email</label>
+                            <label htmlFor="email" className="block text-zinc-200 font-medium mb-2">
+                                Email
+                            </label>
                             <div className="relative">
                                 <input type="email" id="email" name="email" className="text-zinc-200 bg-zinc-600 w-full px-4 py-2 border-2 border-zinc-400 rounded-md focus:outline-none focus:border-blue-500" />
                                 <div className="absolute inset-y-0 right-0 flex items-center pr-3 pointer-events-none">
@@ -50,12 +54,13 @@ function LoginPage() {
                         </div>
 
                         <div className="flex flex-col space-y-4 mt-4">
-                            <button type="button" className="bg-indigo-500 text-white px-4 py-2 rounded-md flex items-center justify-center hover:bg-indigo-600 focus:outline-none focus:bg-gray-700">
-                                <img src="discord-mark-white.png" alt="Discord Icon" className="w-6 h-6 mr-2 object-contain" />
+                            <button type="button" className="bg-indigo-500 text-white px-4 py-2 rounded-md flex items-center justify-center hover:bg-indigo-600 focus:outline-none">
+                                <img src="logos/discord.png" alt="Discord Icon" className="w-6 h-6 mr-2 object-contain" />
                                 Discord
                             </button>
-                            <button type="button" className="bg-blue-800 text-white px-4 py-2 rounded-md flex items-center justify-center hover:bg-blue-900 focus:outline-none focus:bg-gray-700">
-                                <img src="steam.png" alt="Discord Icon" className="w-6 h-6 mr-2 object-contain" />                Steam
+                            <button type="button" className="bg-blue-800 text-white px-4 py-2 rounded-md flex items-center justify-center hover:bg-blue-900 focus:outline-none">
+                                <img src="logos/steam.png" alt="Discord Icon" className="w-6 h-6 mr-2 object-contain" />
+                                Steam
                             </button>
                         </div>
                     </form>
