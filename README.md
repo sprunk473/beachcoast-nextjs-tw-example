@@ -2,9 +2,9 @@
 
 https://nextjs.org/
 
-https://next-auth.js.org/getting-started/introduction
+https://next-auth.js.org/getting-started/introduction [authentication & user data]
 
-https://tailwindcss.com/
+https://tailwindcss.com/ [ui/visual design]
 
 ```
 yarn install 
