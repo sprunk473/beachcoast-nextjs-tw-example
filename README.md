@@ -7,6 +7,7 @@ https://nextjs.org/
 https://next-auth.js.org/getting-started/introduction [authentication & user data]
 
 https://tailwindcss.com/ [ui/visual design]
+
 https://www.npmjs.com/package/@heroicons/react [ui icons]
 
 ```
