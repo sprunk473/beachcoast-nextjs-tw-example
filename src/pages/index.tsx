@@ -8,7 +8,7 @@ function LoginPage() {
     return (
         <div className={` ${inter.className}`}>
             <div className="min-h-screen flex items-center justify-center bg-zinc-700">
-                <div className="max-w-md w-full bg-zinc-800 p-8 rounded shadow-md">
+                <div className="max-w-md w-full bg-zinc-800 p-8 rounded-md shadow-md">
                     <h2 className="text-2xl font-semibold text-center mb-4 text-zinc-300">
                         Portal Login
                     </h2>
